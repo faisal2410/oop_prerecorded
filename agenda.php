@@ -1,23 +1,20 @@
 <?php
 
-// Title: Understanding Interfaces in PHP OOP
+// Title: Understanding Abstract Classes and Methods in PHP OOP with Real-World Examples
 
 /*
 Agenda :
 
-1.What an interface is.
-2.How to declare and implement an interface.
-3.How to implement more than one interface in a class.
-4.Use cases of interfaces in PHP.
+1.What are Abstract Classes and Methods?
+2.How to Declare Classes and Methods as Abstract?
+3.Use Case of Abstract Class
+
 
 */ 
 
 /*
-An interface in PHP is a contract that defines a set of methods that a class must implement, without providing any actual logic for those methods. Think of it as a blueprint for a class. By using interfaces, you ensure that certain methods are defined in a class, but you leave it up to the class to decide how to implement those methods.
+Abstract classes and methods are key concepts in PHP OOP, especially when you want to define a blueprint for other classes. An abstract class is a class that cannot be instantiated directly; it is meant to be extended by other classes. It can contain both abstract and non-abstract methods.
 
-Key Points to Explain:
-
-Interfaces are purely abstract; they don’t have any code in their methods.
-Any class that implements an interface must provide concrete implementations for the methods defined in the interface.
+An abstract method, on the other hand, is a method that is declared in an abstract class but doesn’t have any implementation. The implementation must be provided by the child classes.
 
 */ 
