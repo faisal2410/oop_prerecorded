@@ -1,33 +1,34 @@
 <?php
 
-// Title: Mastering Static Methods and Properties in PHP Object-Oriented Programming
+// Title: Understanding Data Encapsulation in PHP OOP
 /*
 Agenda :
 
-1.What are Static Methods and Properties?
-2.Defining Static Methods and Properties
-3.How to Access Static Methods and Properties
-4.The self:: Keyword in PHP
-5.Use Cases of Static Methods and Properties in Real-World Applications
+
+1.What is Data Encapsulation in Object-Oriented Programming?
+2.Benefits of Data Encapsulation
+3.Example of Data Encapsulation in PHP
+4.Accessing Encapsulated Data Using Getters and Setters
 
 
 */ 
 
 /*
-static methods and static properties belong to the class itself rather than to any specific instance of the class. This means that they can be accessed without creating an object of the class.
 
-Key Concept:
+Data encapsulation is one of the fundamental principles of object-oriented programming. In simple terms, it refers to the practice of hiding the internal details of a class while exposing only the necessary parts to the outside world.
 
-Instance methods and properties require an object to be accessed.
-Static methods and properties are accessed directly from the class.
 
-When working within the same class, you can use the self:: keyword to refer to static methods and properties. This is especially useful when one static method calls another or when a static method accesses a static property.
+In PHP, we achieve encapsulation by setting the visibility of class properties and methods using access modifiers:
 
-Static methods and properties are commonly used when we want to associate functionality or data with the class rather than an instance. Some common use cases include utility functions, configuration settings, or maintaining counters.
+public: Accessible from anywhere.
+private: Accessible only within the class itself.
+protected: Accessible within the class and its subclasses.
 
-The Singleton pattern relies on static properties to hold the instance of the class.
+✅Benefits of Data Encapsulation
 
-Static properties are useful for defining global configuration settings that can be accessed from anywhere in the application.
-
+1.Data Protection: Sensitive data is hidden from unauthorized access.
+2.Controlled Access: You can control how data is accessed and modified using methods like getters and setters.
+3.Maintainability: It makes your code more modular and easier to maintain or refactor.
+4.Reduced Complexity: Encapsulation hides unnecessary details from the outside world, reducing complexity.
 
 */ 
