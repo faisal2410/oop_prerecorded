@@ -29,9 +29,16 @@ class Calculator
         $area=self::areaOfCircle($radious);
         return "A circle with radious $radious has an area of of $area";
     }
+
+
+  
 }
 
-// $c1=new Calculator();
+$c1=new Calculator();
+
+
+
+
 
 // $c1->pi;
 // $c1->test();
@@ -43,4 +50,6 @@ class Calculator
 // Calculator::test();
 
 // echo Calculator::areaOfCircle(5);
-echo Calculator::describeCircle(4);
+// echo Calculator::describeCircle(4);
+
+

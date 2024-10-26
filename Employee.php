@@ -9,11 +9,12 @@ class Employee
     {
         return $this->hours * $this->hoursPrice;
     }
-
-    public function calculateSalary($hours, $hoursPrice)
-    {
-
-    }
+/*
+public function calculateSalary($hours, $hoursPrice)
+{
+    
+}
+*/ 
 }
 
 $emp1=new Employee();
